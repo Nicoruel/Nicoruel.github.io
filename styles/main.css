@@ -2,17 +2,20 @@ p {
     color: lightsteelblue;
 }
 h2 {
-    color:lightblue
+    color:lightblue;
 }
 h1 {
-    color:lightskyblue
+    color:lightskyblue;
 }
 ol {
-    color:lightsteelblue
+    color:lightsteelblue;
 }
 ul {
-    color:lightsteelblue
+    color:lightsteelblue;
 }
 .important {
-    color:whitesmoke
+    color:whitesmoke;
+}
+body {
+    background-color:blanchedalmond;
 }
