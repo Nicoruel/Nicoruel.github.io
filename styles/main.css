@@ -14,8 +14,13 @@ ul {
     color:lightsteelblue;
 }
 .important {
-    color:whitesmoke;
+    color:rgb(0, 183, 255)
 }
 body {
-    background-color:blanchedalmond;
+    background-color:blanchedalmond
+}
+<h1> {
+    margin: 4px;
+    border: 1px burlywood;
+    padding: 5px;
 }
