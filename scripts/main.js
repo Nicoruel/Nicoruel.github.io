@@ -38,13 +38,18 @@ for (let i = 1; i <=10; i++){
 }
 console.log(cubeNumbers);
 console.log("Task 9");
-let fibonacciNumbers=[];
-fibonacciNumbers[0]=0;
-fibonacciNumbers[1]=1;
-for(let i = 2; i < 10; i++){
-  fibonacciNumbers[i]= fibonacciNumbers[i-1] + fibonacciNumbers[i+2]
+let fibonacci = [];
+let first = 0;
+let second = 1;
+for(let i =1; i <11; i++) {
+
+fibonacci .push (first)
+let temp = second
+second = second + first;
+first = temp
 }
-console.log(fibonacciNumbers);
+
+console.log(fibonacci);
 console.log("Task 10");
 let reversedArr=[];
 for(let i = arr.length-1; i>=0;i--){
