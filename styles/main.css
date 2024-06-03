@@ -1,26 +1,103 @@
+body {
+    background-color:rgb(221, 186, 253);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 p {
-    color: lightsteelblue;
+    color: black;
 }
 h2 {
-    color:lightblue;
+    color:black;
 }
 h1 {
-    color:lightskyblue;
+    color:black;
 }
 ol {
-    color:lightsteelblue;
+    color:black;
 }
 ul {
-    color:lightsteelblue;
+    color:black;
 }
-.important {
-    color:rgb(0, 183, 255)
+.green-colored,
+.green-colored * {
+    color: green;
 }
-body {
-    background-color:blanchedalmond
+.orange-colored,
+.orange-colored * {
+    color: orange;
 }
-<h1> {
-    margin: 4px;
-    border: 1px burlywood;
-    padding: 5px;
+.red-colored,
+.red-colored * {
+    color: red;
 }
+.blue-colored,
+.blue-colored * {
+    color: blue;
+}
+
+.green-colored:hover {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition: .5s;
+    background-color: rgb(235, 213, 255);
+}
+.orange-colored:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition: .5s;
+    background-color: rgb(235, 213, 255);
+}
+.red-colored:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition: .5s;
+    background-color: rgb(235, 213, 255);
+}
+.blue-colored:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition: .5s;
+    background-color: rgb(235, 213, 255);
+}
+ 
+.logospin:hover{
+    width: auto;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.rainbowtext {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+  }
+video {
+    height: auto;
+    width: 500px;
+}
+a {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+a:active {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(80%);
+    transition: .1s;
+  }
