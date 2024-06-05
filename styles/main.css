@@ -1,19 +1,19 @@
 body {
-    background-color:rgb(221, 186, 253);
+    background-color:purple;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 p {
-    color: black;
+    color:violet
 }
 h2 {
-    color:black;
+    color:pink;
 }
 h1 {
-    color:black;
+    color:pink;
 }
 ol {
-    color:black;
+    color:salmon;
 }
 ul {
     color:black;
@@ -56,7 +56,7 @@ ul {
     background-color: rgb(235, 213, 255);
 }
  
-.logospin:hover{
+.logospin:active{
     width: auto;
     animation: spin 2s linear infinite;
     display: inline-block;
@@ -71,8 +71,7 @@ ul {
     margin-bottom: 50px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.15rem;
+    font-size: 30px;
     text-transform: uppercase;
     color: #fff;
     text-shadow: -4px 4px #ef3550,
@@ -101,3 +100,17 @@ a:active {
     transform: scale(80%);
     transition: .1s;
   }
+iframe {
+    border: 1px solid pink;
+    width: 400px;
+    height: auto;
+}
+.funtime {
+    color: purple;
+}
+.funtime:active {
+    transform: scale 400%;
+    color: salmon;
+    transition: .3s;
+    background:rgb(235, 213, 255);
+}
