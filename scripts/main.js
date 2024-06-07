@@ -12,7 +12,7 @@ function ChangeSpinnerSpeed() {
        let spinDiv = document.querySelector(".logospin");
        if (spinDiv.style.animationDuration == "") {
 
-           spinDiv.style.animationDuration = "750ms";
+           spinDiv.style.animationDuration = "600ms";
        }
        else {
            spinDiv.style.animationDuration = "";

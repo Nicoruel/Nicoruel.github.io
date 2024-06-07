@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <a class="button-press-animation" href="/Standings.html">Standings</a>
-    <a class="button-press-animation" href="/Stats.html">Statistics</a>
-    <a class="button-press-animation" href="/Videos.html">Soccer Videos</a>
+    <a href="/Standings.html"><button>Standings</button></a>
+    <a href="/Stats.html"><button>Statistics</button></a>
+    <a href="/Videos.html"><button>Soccer Videos</button></a>
     <h1>Home Page</h1>
     <h2>About Me</h2>
     <p>Hi my name is Nico and I love to play soccer. I have played for many years and now have created this website that
@@ -50,8 +50,8 @@
         <img src="Images/Premlogo.png" alt="Prem Logo" style="width: 600px; height: auto; text-align: center;">
     </div>
 
-    <button onclick="ChangeSpinnerDirection()">Change Spin Direction</button>
-    <button onclick="ChangeSpinnerSpeed()">Change Spin Speed</button>
+    <button style="padding: 20px" onclick="ChangeSpinnerDirection()">Change Spin Direction</button>
+    <button style="padding: 20px" onclick="ChangeSpinnerSpeed()">Change Spin Speed</button>
     <script>
         function ChangeSpinnerDirection() {
             let spinDiv = document.querySelector(".logospin");
@@ -67,7 +67,7 @@
        let spinDiv = document.querySelector(".logospin");
        if (spinDiv.style.animationDuration == "") {
 
-           spinDiv.style.animationDuration = "750ms";
+           spinDiv.style.animationDuration = "600ms";
        }
        else {
            spinDiv.style.animationDuration = "";

@@ -91,31 +91,16 @@ a {
     cursor: pointer;
     transition: .5s;
 }
-a:active {
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
-    transform: scale(80%);
-    transition: .1s;
-  }
 embed {
     border: 1px solid pink;
     width: 900px;
     height: auto;
-}
-.funtime {
-    color: purple;
-}
-.funtime:active {
-    transform: scale 400%;
-    color: salmon;
-    transition: .3s;
-    background:pink;
 }
 
 button {
     background-color: pink;
     color: purple;
     transition: .25s;
-    padding: 20px;
     text-align: center;
 }
 
